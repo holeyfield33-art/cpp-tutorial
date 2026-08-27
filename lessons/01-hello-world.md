@@ -10,6 +10,11 @@ C++ is no exception — but we’re going to understand *why* every line exists.
 
 > [!TIP]
 > **Try it now:** this repo already has this exact program ready to run — open `examples/lesson-01-hello-world.cpp` in your Codespace and press `F5` (Run and Debug). No setup needed, it's wired to the devcontainer's compiler.
+>
+> **`F5` builds whichever tab is active** — not whichever file you last read. If a lesson
+> `.md` file is the focused tab instead of the `.cpp` file, `F5` tries to compile the
+> Markdown and fails with a confusing linker error. Click into the `.cpp` file's tab first
+> so its editor actually has focus, *then* press `F5`.
 
 ---
 
