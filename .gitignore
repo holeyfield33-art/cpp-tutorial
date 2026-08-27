@@ -2,3 +2,11 @@
 # (matches ${fileDirname}/${fileBasenameNoExtension} from .vscode/tasks.json)
 examples/lesson-*
 !examples/lesson-*.cpp
+
+# Your own practice files and the binaries they compile to.
+# hello.cpp is the Lesson 00 scratch file - yours to keep locally, not part of the tutorial.
+practice/
+hello.cpp
+hello
+hello.exe
+lessons/hello
