@@ -17,7 +17,7 @@ Operators are the symbols that let a C++ program calculate, compare, and combine
 - Integer division
 - Operator precedence and parentheses
 - Why `=` and `==` are different
-- How to inspect expressions in the Visual Studio debugger
+- How to inspect expressions in the VS Code debugger
 
 ---
 
@@ -402,19 +402,20 @@ Create a Boolean expression that determines whether someone is legally ready to 
 
 ## Debugger Exercise: Watch an Expression Change State
 
-In Visual Studio:
+In VS Code:
 
-1. Create a program with several arithmetic operations.
-2. Put a breakpoint immediately before an expression such as:
+1. Open the **Run and Debug** panel.
+2. Start the **Debug active C++ file** configuration.
+3. Put a breakpoint immediately before an expression such as:
    ```cpp
    int total{price * quantity};
    ```
-3. Run under the debugger.
-4. Inspect `price` and `quantity` in **Locals**.
-5. Step over the calculation.
-6. Inspect `total`.
-7. Add `total` to the **Watch** window.
-8. Change the program so `total` is updated with `+=` and watch it change again.
+4. Run the debugger and provide the program's input in the integrated terminal.
+5. When execution stops, inspect `price` and `quantity` in the **Variables** pane.
+6. Step over the calculation.
+7. Inspect `total` in **Variables**.
+8. Add `total` to the **Watch** pane.
+9. Change the program so `total` is updated with `+=` and watch it change again.
 
 Then create a Boolean expression such as:
 
