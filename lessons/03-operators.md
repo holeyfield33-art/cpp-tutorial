@@ -2,6 +2,7 @@
 
 Operators are the symbols that let a C++ program calculate, compare, and combine values.
 
+> [!NOTE]
 > **Goal:** By the end of this lesson, you should be able to perform arithmetic, understand assignment versus comparison, build Boolean expressions, and predict the result of simple expressions before running them.
 
 ---
@@ -105,6 +106,10 @@ double result{7.0 / 2};
 
 Now the result is `3.5`.
 
+> [!NOTE]
+> **Real life:** this is exactly why splitting a restaurant bill among people can go wrong if you're not careful — $10 split 3 ways with integer math would silently "lose" a few cents unless you use decimals.
+
+> [!TIP]
 > **Experiment:** Predict the result of `9 / 4`, `9.0 / 4`, and `9 / 4.0` before running them.
 
 ---
@@ -263,6 +268,8 @@ int result{2 + 3 * 4};
 
 The multiplication happens first, so the result is `14`.
 
+<img src="../assets/diagrams/operator-precedence.svg" alt="2 + 3 * 4 evaluated step by step: multiplication first, then addition" width="560">
+
 When readability matters, use parentheses:
 
 ```cpp
@@ -271,6 +278,7 @@ int result{(2 + 3) * 4};
 
 Now the result is `20`.
 
+> [!TIP]
 > **Beginner rule:** Don't rely on memorizing a giant precedence table. When an expression could be misunderstood, use parentheses.
 
 ---
@@ -317,6 +325,9 @@ Boolean decision
 ```
 
 We will formally introduce `if` statements in the next lesson.
+
+> [!TIP]
+> **Try it now:** open `examples/lesson-03-operators.cpp` and press `F5`. Enter a price and quantity, then check whether "Free shipping" flips to `yes` once your subtotal crosses $50.
 
 ---
 

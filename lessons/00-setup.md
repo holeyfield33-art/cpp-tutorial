@@ -4,6 +4,12 @@ Before we write a single line of C++, we need a working compiler and a place to 
 
 This lesson is short on purpose. Get the tools installed, verify they work, then move on.
 
+> [!NOTE]
+> **Real life:** think of the compiler as a translator. You write instructions in a language humans can read (C++); the compiler turns that into a language your computer can actually run (machine code). No compiler, no translation, no program.
+
+> [!TIP]
+> **Already in this repo's Codespace?** You can skip most of this lesson — the `.devcontainer` config already installs `g++` and `gdb` for you automatically when the Codespace builds. Jump to [Step 3](#3-create-a-test-file) to confirm it's working, then move on to Lesson 01.
+
 ---
 
 ## What You Need
@@ -117,11 +123,15 @@ You should see:
 Setup successful!
 ```
 
-If that worked — congratulations. Your environment is ready.
+> [!TIP]
+> If that worked — congratulations. Your environment is ready. This is the exact same command your debugger will run behind the scenes for the rest of the course, so if it works here, everything downstream will work too.
 
 ---
 
 ## Common Problems
+
+> [!WARNING]
+> These three cover almost every setup issue beginners hit. Check here before assuming your code is wrong — it might just be the environment.
 
 | Problem                        | Fix                                      |
 |--------------------------------|------------------------------------------|

@@ -3,6 +3,14 @@
 Every programming language starts with “Hello, World.”  
 C++ is no exception — but we’re going to understand *why* every line exists.
 
+> [!NOTE]
+> **Real life:** turning source code into a running program is exactly like turning a recipe into a finished dish — you write instructions (the recipe), a compiler (the chef) follows them precisely, and out comes something you can actually run and use.
+
+<img src="../assets/diagrams/compile-pipeline.svg" alt="Source code goes through the compiler to become an executable program" width="640">
+
+> [!TIP]
+> **Try it now:** this repo already has this exact program ready to run — open `examples/lesson-01-hello-world.cpp` in your Codespace and press `F5` (Run and Debug). No setup needed, it's wired to the devcontainer's compiler.
+
 ---
 
 ## The Minimal Program
@@ -104,8 +112,8 @@ using namespace std;
 cout << "Hello\n";
 ```
 
-**Best practice while learning:** Prefer the fully qualified form `std::cout`.  
-It makes it obvious where each name comes from.
+> [!TIP]
+> **Best practice while learning:** Prefer the fully qualified form `std::cout`. It makes it obvious where each name comes from — like signing a letter with your full name instead of just an initial, so the reader always knows who wrote it.
 
 ---
 
@@ -163,6 +171,9 @@ Write a program that prints this exact output (including the blank line):
 Hello, World!
 ```
 
+> [!TIP]
+> **Try it now:** create a new file in `examples/` (or edit `lesson-01-hello-world.cpp` temporarily), write your version, then hit `F5`. Seeing your own output appear is a genuinely different feeling than reading someone else's — don't skip this one.
+
 ---
 
 ## Summary
@@ -178,5 +189,3 @@ Hello, World!
 ## Next Lesson
 
 → [Lesson 02: Variables, Types & Basic I/O](02-variables-types.md)
-
-*(Coming soon)*

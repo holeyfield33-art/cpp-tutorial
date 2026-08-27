@@ -2,6 +2,10 @@
 
 Functions let you divide a program into named, reusable pieces of work.
 
+> [!NOTE]
+> **Real life:** a function is like a vending machine. You don't need to know how it makes change or dispenses the snack internally — you put in the right input (money + selection) and you reliably get the right output (your snack). That's the whole point of a function: a predictable job you can call on without re-explaining how it works each time.
+
+> [!NOTE]
 > **Goal:** By the end of this lesson, you should be able to write functions, pass information into them, return results, understand local scope, and decide when code belongs in a separate function.
 
 ---
@@ -208,6 +212,7 @@ int square(int number)
 
 A useful design question is:
 
+> [!TIP]
 > **Does the caller need a value back, or does this function simply perform an action?**
 
 ---
@@ -392,7 +397,11 @@ Each function has one obvious responsibility.
 
 That is a strong beginner design habit:
 
+> [!TIP]
 > **Prefer small functions with clear jobs over one giant `main()` function.**
+
+> [!TIP]
+> **Try it now:** open `examples/lesson-05-functions.cpp` and press `F5`. Set a breakpoint inside one of the arithmetic functions and check the **CALL STACK** panel — you'll see `main()` sitting underneath it, exactly like the diagram in the debugger exercise below.
 
 ---
 
@@ -503,6 +512,9 @@ In VS Code:
    calculate()
    main()
    ```
+
+<img src="../assets/diagrams/function-call-stack.svg" alt="Call stack with square() on top of calculate() on top of main()" width="560">
+
 8. Step out of `square()`.
 9. Watch execution return to `calculate()`.
 10. Continue until `main()` receives the final result.
