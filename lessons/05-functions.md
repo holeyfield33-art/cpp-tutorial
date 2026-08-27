@@ -553,21 +553,6 @@ The purpose of this project is learning decomposition, not building a feature-he
 
 ---
 
-## LearnCpp Companion Reading
-
-Use LearnCpp to reinforce the concepts:
-
-- [Chapter 2 — Functions and Files](https://www.learncpp.com/cpp-tutorial/chapter-2-functions-and-files/)
-- [2.1 — Introduction to function parameters and arguments](https://www.learncpp.com/cpp-tutorial/introduction-to-function-parameters-and-arguments/)
-- [2.2 — Function return values](https://www.learncpp.com/cpp-tutorial/function-return-values/)
-- [2.3 — Void functions](https://www.learncpp.com/cpp-tutorial/void-functions-non-value-returning-functions/)
-- [2.4 — Function parameters and arguments](https://www.learncpp.com/cpp-tutorial/introduction-to-function-parameters-and-arguments/)
-- [2.5 — Introduction to function overloading](https://www.learncpp.com/cpp-tutorial/introduction-to-function-overloading/)
-
-For the current lesson, focus on the basic function material before moving into overloading.
-
----
-
 ## Summary
 
 You should now understand:

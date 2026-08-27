@@ -365,17 +365,6 @@ Your program must:
 
 ---
 
-## LearnCpp Companion Reading
-
-Use LearnCpp as a companion reference, not a replacement for this lesson:
-
-- [1.3 — Introduction to Objects and Variables](https://www.learncpp.com/cpp-tutorial/introduction-to-objects-and-variables/)
-- [1.4 — Variable Assignment and Initialization](https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/)
-- [1.5 — Introduction to iostream: cout, cin, and endl](https://www.learncpp.com/cpp-tutorial/introduction-to-iostream-cout-cin-and-endl/)
-- [4.1 — Introduction to Fundamental Data Types](https://www.learncpp.com/cpp-tutorial/introduction-to-fundamental-data-types/)
-
----
-
 ## Summary
 
 You should now understand:

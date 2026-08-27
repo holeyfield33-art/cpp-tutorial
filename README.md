@@ -3,6 +3,8 @@
 **A clean, progressive, beginner-to-intermediate C++ tutorial series (v1).**  
 No fluff. Real explanations. Working code. Exercises that actually teach.
 
+A progressive, no-fluff C++ course that teaches modern practice from the first lesson. Clear mental models, working examples, and exercises that force understanding — not just syntax. Built for people who want to actually write C++, not just read about it.
+
 > **Status:** v1 Blueprint — actively being written  
 > **Goal:** Take someone from zero to confident modern C++ (C++17/20 focus)
 
