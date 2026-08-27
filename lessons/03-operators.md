@@ -192,7 +192,7 @@ For now, treat these as convenient ways to change a variable by one. The differe
 Comparison operators ask a question and produce a Boolean result (`true` or `false`).
 
 | Operator | Meaning |
-|---|---|
+| --- | --- |
 | `==` | equal to |
 | `!=` | not equal to |
 | `<` | less than |

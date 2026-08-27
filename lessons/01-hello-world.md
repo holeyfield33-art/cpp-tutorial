@@ -149,7 +149,7 @@ std::cout << "Hello, " << "World!" << "\n";
 ## Common Mistakes
 
 | Mistake                              | What happens                          | Fix                          |
-|--------------------------------------|---------------------------------------|------------------------------|
+| ------------------------------------ | ------------------------------------- | ---------------------------- |
 | Forgot `#include <iostream>`         | Compiler error: `cout` not declared   | Add the include              |
 | Wrote `cout` without `std::`         | Same error                            | Use `std::cout`              |
 | Missing semicolon                    | Compiler error                        | Add `;`                      |

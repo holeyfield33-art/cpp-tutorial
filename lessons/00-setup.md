@@ -26,7 +26,7 @@ tools like classes and the Standard Library. That combination — close to the m
 ### What people actually build with it
 
 | Field | Real examples |
-|---|---|
+| --- | --- |
 | **Game engines & games** | Unreal Engine, Unity's core, most AAA game titles |
 | **Operating systems & browsers** | Parts of Windows, macOS, Linux tooling, Chrome, Firefox |
 | **Embedded & real-time systems** | Cars, medical devices, drones, robotics, microcontrollers |
@@ -126,7 +126,7 @@ g++ --version
 Any of these work well:
 
 | Tool              | Notes                                      |
-|-------------------|--------------------------------------------|
+| ----------------- | ------------------------------------------ |
 | **VS Code**       | Free, lightweight, excellent C++ extension |
 | **CLion**         | Powerful IDE (free for students)           |
 | **Vim / Neovim**  | Fast once you learn it                     |
@@ -143,7 +143,7 @@ Any of these work well:
 Open the Extensions panel with `Ctrl+Shift+X` (`Cmd+Shift+X` on macOS), search the ID, click **Install**.
 
 | Extension | ID | Why you need it |
-|---|---|---|
+| --- | --- | --- |
 | **C/C++ Extension Pack** | `ms-vscode.cpptools-extension-pack` | **The only one that is required.** Bundles the three below in one click. |
 | ↳ C/C++ | `ms-vscode.cpptools` | IntelliSense (autocomplete), red squiggles, and the debugger |
 | ↳ C/C++ Themes | `ms-vscode.cpptools-themes` | Syntax colors tuned for C++ |
@@ -158,7 +158,7 @@ Open the Extensions panel with `Ctrl+Shift+X` (`Cmd+Shift+X` on macOS), search t
 **Optional, genuinely useful for this course:**
 
 | Extension | ID | Why |
-|---|---|---|
+| --- | --- | --- |
 | Error Lens | `usernamehw.errorlens` | Prints the error message *on the line itself* instead of hiding it in the Problems panel. Excellent while learning. |
 | Code Spell Checker | `streetsidesoftware.code-spell-checker` | Catches typos in your strings and comments |
 
@@ -300,7 +300,7 @@ Setup successful!
 > These three cover almost every setup issue beginners hit. Check here before assuming your code is wrong — it might just be the environment.
 
 | Problem | What it means | Fix |
-|---|---|---|
+| --- | --- | --- |
 | **Hundreds of errors** (300+) from a 6-line file | A stray ` ```cpp ` fence line got pasted in as line 1 | Delete the word `cpp` from line 1. See [Step 3b](#step-3b--type-the-code). |
 | `error: expected '}' at end of input` | Missing the closing brace | Add `}` on the last line |
 | `'cout' is not a member of 'std'` | Missing the include | Add `#include <iostream>` at the top |

@@ -46,7 +46,7 @@ We will revisit the memory side of this when we study pointers, the stack, and t
 ## 2. Common Fundamental Types
 
 | Type | Stores | Example |
-|---|---|---|
+| --- | --- | --- |
 | `int` | Whole numbers | `42` |
 | `double` | Numbers with fractional parts | `3.14159` |
 | `char` | One character | `'A'` |
@@ -250,7 +250,7 @@ The goal is to choose variables based on what the program needs to represent.
 ## 9. Common Beginner Mistakes
 
 | Mistake | What happens | Better approach |
-|---|---|---|
+| --- | --- | --- |
 | `int price{19.99};` | Narrowing conversion error | Use `double` for fractional values |
 | `char name{'Alex'};` | Too many characters for `char` | Use a string type when you learn strings |
 | `const int x{};` | Must be initialized before use | Give `const` its value immediately |
