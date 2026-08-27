@@ -17,7 +17,7 @@ Functions let you divide a program into named, reusable pieces of work.
 - Function composition
 - Passing by value
 - Basic function design
-- Debugging function calls with the Visual Studio call stack
+- Debugging function calls with the VS Code call stack
 
 ---
 
@@ -489,20 +489,23 @@ int main()
 }
 ```
 
-In Visual Studio:
+In VS Code:
 
-1. Put a breakpoint inside `square()`.
-2. Start debugging.
-3. When execution stops, open **Debug → Windows → Call Stack**.
-4. Observe the chain:
+1. Open the **Run and Debug** panel.
+2. Select **Debug active C++ file**.
+3. Put a breakpoint inside `square()`.
+4. Start debugging.
+5. When execution stops, inspect the **Variables** pane.
+6. Open the **CALL STACK** section in the Run and Debug view.
+7. Observe the chain:
    ```text
    square()
    calculate()
    main()
    ```
-5. Step out of `square()`.
-6. Watch execution return to `calculate()`.
-7. Continue until `main()` receives the final result.
+8. Step out of `square()`.
+9. Watch execution return to `calculate()`.
+10. Continue until `main()` receives the final result.
 
 ### Debugger question
 
