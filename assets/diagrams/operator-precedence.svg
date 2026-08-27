@@ -1,0 +1,21 @@
+<svg viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="200" fill="#ffffff"/>
+
+  <text x="280" y="30" text-anchor="middle" font-size="18" fill="#1a1a1a" font-weight="700">2 + 3 * 4</text>
+
+  <!-- highlight multiply first -->
+  <rect x="330" y="45" width="70" height="34" rx="6" fill="#fff5e6" stroke="#dd8c1e" stroke-width="2"/>
+  <text x="365" y="68" text-anchor="middle" font-size="16" fill="#7a4a00" font-weight="700">3 * 4</text>
+  <text x="365" y="95" text-anchor="middle" font-size="11" fill="#dd8c1e" font-weight="600">① multiply first → 12</text>
+
+  <text x="280" y="120" text-anchor="middle" font-size="16" fill="#1a1a1a">2 + 12</text>
+
+  <rect x="245" y="130" width="70" height="34" rx="6" fill="#f0fff4" stroke="#2f855a" stroke-width="2"/>
+  <text x="280" y="153" text-anchor="middle" font-size="16" fill="#22543d" font-weight="700">2 + 12</text>
+  <text x="280" y="180" text-anchor="middle" font-size="11" fill="#2f855a" font-weight="600">② then add → 14</text>
+
+  <text x="80" y="65" font-size="12" fill="#718096">Real life: order of</text>
+  <text x="80" y="83" font-size="12" fill="#718096">operations, same</text>
+  <text x="80" y="101" font-size="12" fill="#718096">rule as "PEMDAS"</text>
+  <text x="80" y="119" font-size="12" fill="#718096">from math class.</text>
+</svg>

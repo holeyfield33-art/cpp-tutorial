@@ -1,0 +1,34 @@
+<svg viewBox="0 0 560 280" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="560" height="280" fill="#ffffff"/>
+
+  <!-- decision diamond -->
+  <polygon points="280,20 360,70 280,120 200,70" fill="#eef6ff" stroke="#2b6cb0" stroke-width="2.5"/>
+  <text x="280" y="65" text-anchor="middle" font-size="13" fill="#1a1a1a" font-weight="600">age &gt;= 18 ?</text>
+  <text x="280" y="80" text-anchor="middle" font-size="11" fill="#4a5568">(a condition — like a fork in the road)</text>
+
+  <!-- true branch -->
+  <line x1="200" y1="70" x2="100" y2="150" stroke="#2f855a" stroke-width="2.5" marker-end="url(#arrow-g)"/>
+  <text x="130" y="105" font-size="12" fill="#2f855a" font-weight="700">true</text>
+  <rect x="30" y="150" width="140" height="60" rx="8" fill="#f0fff4" stroke="#2f855a" stroke-width="2"/>
+  <text x="100" y="175" text-anchor="middle" font-size="13" fill="#22543d" font-weight="600">"You are an</text>
+  <text x="100" y="192" text-anchor="middle" font-size="13" fill="#22543d" font-weight="600">adult."</text>
+
+  <!-- false branch -->
+  <line x1="360" y1="70" x2="460" y2="150" stroke="#c53030" stroke-width="2.5" marker-end="url(#arrow-r)"/>
+  <text x="410" y="105" font-size="12" fill="#c53030" font-weight="700">false</text>
+  <rect x="390" y="150" width="140" height="60" rx="8" fill="#fff5f5" stroke="#c53030" stroke-width="2"/>
+  <text x="460" y="175" text-anchor="middle" font-size="13" fill="#742a2a" font-weight="600">"You are a</text>
+  <text x="460" y="192" text-anchor="middle" font-size="13" fill="#742a2a" font-weight="600">minor."</text>
+
+  <text x="280" y="250" text-anchor="middle" font-size="12" fill="#718096">Real life: this is exactly a bouncer checking ID at a door —</text>
+  <text x="280" y="266" text-anchor="middle" font-size="12" fill="#718096">one condition, exactly one of two outcomes happens.</text>
+
+  <defs>
+    <marker id="arrow-g" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#2f855a"/>
+    </marker>
+    <marker id="arrow-r" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#c53030"/>
+    </marker>
+  </defs>
+</svg>

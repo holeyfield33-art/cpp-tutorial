@@ -2,6 +2,7 @@
 
 Variables are how a C++ program remembers information while it runs.
 
+> [!NOTE]
 > **Goal:** Create typed variables, initialize them safely, print their values, accept simple user input, and explain what each variable represents.
 
 ---
@@ -25,6 +26,9 @@ A useful beginner mental model is:
 
 > **A variable is a named piece of memory that stores a value of a particular type.**
 
+> [!NOTE]
+> **Real life:** a variable is a labeled storage box — like a jar with a name tag on the shelf. The name tag (`age`) is how you find it, the jar's shape (`int`) tells you what kind of thing can go inside, and what's actually sitting in the jar right now (`25`) is the value.
+
 For example:
 
 ```cpp
@@ -33,10 +37,7 @@ int age{25};
 
 For now, think of a variable as three things:
 
-```text
-name  →  type  →  value
-age   →  int   →  25
-```
+<img src="../assets/diagrams/variable-box.svg" alt="A variable shown as a labeled box with a name, a type, and a stored value" width="620">
 
 We will revisit the memory side of this when we study pointers, the stack, and the heap.
 
@@ -204,7 +205,8 @@ The `>>` extraction operator attempts to read input from the stream and store it
 
 If the user enters `25`, `age` becomes `25`.
 
-> **Important:** `std::cin` can enter a failed state when the input does not match the expected type. Full input validation comes later; for now, learn to recognize that user input is not automatically trustworthy.
+> [!IMPORTANT]
+> `std::cin` can enter a failed state when the input does not match the expected type. Full input validation comes later; for now, learn to recognize that user input is not automatically trustworthy — the same way a form on a website shouldn't blindly trust whatever gets typed into it.
 
 ---
 
@@ -239,6 +241,9 @@ Notice the roles:
 - `tax` and `total` are calculated from the input
 
 The goal is to choose variables based on what the program needs to represent.
+
+> [!TIP]
+> **Try it now:** this exact program is already in `examples/lesson-02-variables.cpp`. Open it in your Codespace, set a breakpoint on the `tax` line, and press `F5` — you'll see `price` sitting in the **Variables** pane the instant you type it in.
 
 ---
 

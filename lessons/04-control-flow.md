@@ -2,6 +2,10 @@
 
 So far, our programs have mostly executed from top to bottom. Real programs need to make decisions and repeat work.
 
+> [!NOTE]
+> **Real life:** you already do this constantly — "if it's raining, take an umbrella; otherwise don't" is an `if`/`else`. "Keep stirring until the sauce thickens" is a loop. Code just makes those decisions explicit and precise.
+
+> [!NOTE]
 > **Goal:** By the end of this lesson, you should be able to choose between paths with `if`/`else` and `switch`, repeat work with loops, and recognize the conditions that control program execution.
 
 ---
@@ -87,6 +91,8 @@ else
 ```
 
 Exactly one of these blocks executes.
+
+<img src="../assets/diagrams/if-else-flow.svg" alt="Decision diamond splitting into a true branch and a false branch, exactly one runs" width="560">
 
 ---
 
@@ -196,19 +202,10 @@ while (count <= 5)
 
 The condition is checked before every iteration.
 
-```text
-check condition
-      ↓
-   true? ── no → stop
-      │
-     yes
-      ↓
- run body
-      ↓
- repeat
-```
+<img src="../assets/diagrams/loop-flow.svg" alt="Loop flow: check condition, run body if true, repeat, stop when false" width="560">
 
-> **Critical rule:** Make sure something inside the loop can eventually make the condition false.
+> [!WARNING]
+> **Critical rule:** Make sure something inside the loop can eventually make the condition false. This is the #1 cause of a program that "hangs" — the same way a washing machine stuck on repeat because its timer sensor is broken never moves to the next cycle.
 
 ---
 
@@ -356,6 +353,9 @@ output
 ```
 
 This pattern will appear constantly in real programs.
+
+> [!TIP]
+> **Try it now:** open `examples/lesson-04-control-flow.cpp` and press `F5`. Try ages and scores on both sides of each boundary (17 vs 18, 79 vs 80) to see the branch actually flip.
 
 ---
 
