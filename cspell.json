@@ -1,0 +1,16 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["cpp", "bash", "shell", "softwareTerms", "misc"],
+  "ignorePaths": [".git", "examples/lesson-*", "hello", "hello.exe"],
+  "words": [
+    "cout", "cin", "cerr", "endl", "iostream", "fstream", "sstream", "cstdio",
+    "cplusplus", "stdlib", "boolalpha", "nullptr", "stoi", "rvalue", "lvalue",
+    "raii", "cpp",
+    "devcontainer", "devcontainers", "cpptools", "IntelliSense", "codespace",
+    "codespaces", "vscode", "clangd", "gdb", "gcc", "xcode", "clion",
+    "msys2", "msys64", "mingw", "ucrt", "ucrt64", "pacman", "syu",
+    "errorlens", "streetsidesoftware", "usernamehw", "learncpp",
+    "mysql", "autocad", "tensorflow", "pytorch"
+  ]
+}

@@ -30,6 +30,13 @@ This repository teaches C++ the way it is actually used:
 4. Complete the exercises before moving on.
 5. When you finish a section, do the mini-project.
 
+**Reading lessons in a Codespace or VS Code:** opening a `.md` file from the Explorer shows
+you the raw Markdown text — headings as `##`, diagrams as a plain `<img>` tag, no colors. To
+see it formatted the way GitHub shows it (rendered headings, callout boxes, the SVG diagrams
+actually drawn), open **Markdown: Open Preview** — press `Ctrl+Shift+V` (`Cmd+Shift+V` on
+macOS), or click the preview icon (a page with a magnifying glass) in the top-right corner of
+the editor tab.
+
 **Recommended tools:**
 - Compiler: `g++` (GCC) or `clang++`
 - Editor: VS Code + C/C++ extension, or CLion, or any editor you like

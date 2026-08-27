@@ -182,6 +182,31 @@ code hello.cpp      # then open it in the editor
 > treated as C++ — you will get no syntax colors, no autocomplete, and the compiler will
 > refuse it. The extension is how every tool knows what the file is.
 
+> [!NOTE]
+> **Where the file goes matters — this trips people up in Codespaces specifically.**
+>
+> Your terminal always has a **current folder** (its "working directory"), and a plain
+> filename like `hello.cpp` only resolves inside that folder. In this repo's Codespace,
+> a *newly opened* terminal starts in `/workspaces/cpp-tutorial` (the repo root) — so if
+> you created `hello.cpp` using the Explorer's **New File** button at the top level, a
+> fresh terminal already sees it and `g++ hello.cpp -o hello` just works.
+>
+> Problems start if you `cd` somewhere else first, or reuse an old terminal tab that's
+> sitting in a different folder. Then the compiler looks for `hello.cpp` in the wrong
+> place and fails with something like:
+>
+> ```text
+> cc1plus: fatal error: hello.cpp: No such file or directory
+> ```
+>
+> That is **not** a broken install — `g++` is fine, it just can't see the file from where
+> it's standing. Two ways to fix it:
+>
+> - Run `pwd` (prints your current folder) and `ls` (lists what's in it). If `hello.cpp`
+>   isn't in the `ls` output, you're in the wrong folder — run `cd /workspaces/cpp-tutorial`
+>   (or wherever you saved the file) and try again.
+> - Or just give the compiler the full path, from anywhere: `g++ /workspaces/cpp-tutorial/hello.cpp -o hello`.
+
 ### Step 3b — Type the code
 
 ```cpp
@@ -271,6 +296,7 @@ Setup successful!
 | No colors, no autocomplete at all | Extension missing, or file is not named `.cpp` | Install `ms-vscode.cpptools-extension-pack`; check the filename ends in `.cpp` |
 | Your edit seems to have no effect | The file was never saved | Press `Ctrl+S` — a white dot on the tab means unsaved |
 | `g++: command not found` | Compiler not installed or not in PATH | Install it (Step 1); in a Codespace, rebuild the container |
+| `cc1plus: fatal error: hello.cpp: No such file or directory` | Compiler is installed fine, but your terminal is in a **different folder** than `hello.cpp` | Run `pwd` and `ls` to see where you are; `cd` to the right folder, or use the full path (`g++ /workspaces/cpp-tutorial/hello.cpp -o hello`) |
 | Permission denied on `./hello` | Binary is not marked executable | Run `chmod +x hello` |
 | Weird encoding / line endings | File saved as UTF-16 or with CRLF | Use UTF-8 and LF (Unix) line endings |
 
