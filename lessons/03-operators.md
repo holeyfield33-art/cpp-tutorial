@@ -473,18 +473,6 @@ Do not worry about building a polished menu yet. Lesson 04 will give you the con
 
 ---
 
-## LearnCpp Companion Reading
-
-Use LearnCpp to reinforce these concepts:
-
-- [Chapter 6 — Operator Overloading](https://www.learncpp.com/cpp-tutorial/introduction-to-operators/)
-- [Arithmetic Operators](https://www.learncpp.com/cpp-tutorial/arithmetic-operators/)
-- [Increment/decrement operators](https://www.learncpp.com/cpp-tutorial/increment-decrement-operators-and-side-effects/)
-- [Logical operators](https://www.learncpp.com/cpp-tutorial/logical-operators/)
-- [Operator precedence](https://www.learncpp.com/cpp-tutorial/operator-precedence-and-associativity/)
-
----
-
 ## Summary
 
 You should now understand:

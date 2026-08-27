@@ -494,20 +494,6 @@ Do **not** worry about classes, functions, or complex input validation yet. Thos
 
 ---
 
-## LearnCpp Companion Reading
-
-Use LearnCpp as your reference for the mechanics:
-
-- [Chapter 8 — Control Flow and Error Handling](https://www.learncpp.com/cpp-tutorial/chapter-8-control-flow-and-error-handling/)
-- [If statements](https://www.learncpp.com/cpp-tutorial/introduction-to-if-statements/)
-- [If/else](https://www.learncpp.com/cpp-tutorial/if-statements-and-blocks/)
-- [Switch statements](https://www.learncpp.com/cpp-tutorial/switch-statement-basics/)
-- [While loops](https://www.learncpp.com/cpp-tutorial/introduction-to-loops-and-while-statements/)
-- [Do while](https://www.learncpp.com/cpp-tutorial/introduction-to-do-while-loops/)
-- [For loops](https://www.learncpp.com/cpp-tutorial/for-statements/)
-
----
-
 ## Summary
 
 You should now understand:

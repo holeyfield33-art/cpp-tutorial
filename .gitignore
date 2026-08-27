@@ -1,0 +1,4 @@
+# Compiled example binaries produced by the debug/build task
+# (matches ${fileDirname}/${fileBasenameNoExtension} from .vscode/tasks.json)
+examples/lesson-*
+!examples/lesson-*.cpp
