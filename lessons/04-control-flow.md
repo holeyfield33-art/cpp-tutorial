@@ -19,7 +19,7 @@ So far, our programs have mostly executed from top to bottom. Real programs need
 - `for` loops
 - `break` and `continue`
 - Avoiding infinite loops
-- Debugging branches and loops in Visual Studio
+- Debugging branches and loops in VS Code
 
 ---
 
@@ -406,7 +406,7 @@ Use a loop to print the even numbers from 1 through 50. Use `%` to identify even
 
 ## Debugger Exercise: See the Branches
 
-Use Visual Studio to investigate this program:
+Use VS Code to investigate this program:
 
 ```cpp
 int score{};
@@ -426,13 +426,13 @@ else
 }
 ```
 
-1. Set a breakpoint on the first `if`.
-2. Run the debugger.
-3. Enter `95`.
-4. Step through the program.
-5. Repeat with `85`.
-6. Repeat with `60`.
-7. Watch the condition values in **Locals** or **Watch**.
+1. Open the **Run and Debug** panel.
+2. Select **Debug active C++ file**.
+3. Set a breakpoint on the first `if`.
+4. Start debugging and enter `95` in the integrated terminal.
+5. Step through the program and inspect the condition values in **Variables** or **Watch**.
+6. Repeat with `85`.
+7. Repeat with `60`.
 
 Then debug a `for` loop:
 
