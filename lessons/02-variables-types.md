@@ -315,9 +315,11 @@ In VS Code:
 1. Open the **Run and Debug** panel.
 2. Select **Debug active C++ file**.
 3. Put a breakpoint on:
+
    ```cpp
    double tax{price * taxRate};
    ```
+
 4. Start debugging and enter a price in the integrated terminal.
 5. When execution stops, inspect `price`, `taxRate`, and `total` in the **Variables** pane.
 6. Step to the next line and watch `tax` appear.

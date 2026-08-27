@@ -507,13 +507,14 @@ In VS Code:
 5. When execution stops, inspect the **Variables** pane.
 6. Open the **CALL STACK** section in the Run and Debug view.
 7. Observe the chain:
+
    ```text
    square()
    calculate()
    main()
    ```
 
-<img src="../assets/diagrams/function-call-stack.svg" alt="Call stack with square() on top of calculate() on top of main()" width="560">
+   <img src="../assets/diagrams/function-call-stack.svg" alt="Call stack with square() on top of calculate() on top of main()" width="560">
 
 8. Step out of `square()`.
 9. Watch execution return to `calculate()`.

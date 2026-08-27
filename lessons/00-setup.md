@@ -63,25 +63,33 @@ C++ is not always the right tool, and knowing that is part of learning it:
 **Recommended: Install via MSYS2 or use the Visual Studio Build Tools**
 
 **Option A – MinGW-w64 via MSYS2 (cleanest for beginners)**
+
 1. Download and install [MSYS2](https://www.msys2.org/)
 2. Open the MSYS2 terminal and run:
+
    ```bash
    pacman -Syu
    pacman -S mingw-w64-ucrt-x86_64-gcc
    ```
+
 3. Add `C:\msys64\ucrt64\bin` to your system PATH.
 
 **Option B – Visual Studio**
+
 - Install [Visual Studio Community](https://visualstudio.microsoft.com/) and select the “Desktop development with C++” workload.
 
 **Verify:**
+
 ```bash
 g++ --version
 ```
+
 or
+
 ```bash
 cl
 ```
+
 (if using MSVC)
 
 ### macOS
@@ -93,6 +101,7 @@ xcode-select --install
 This installs `clang++`.
 
 Verify:
+
 ```bash
 clang++ --version
 ```
@@ -105,6 +114,7 @@ sudo apt install build-essential
 ```
 
 Verify:
+
 ```bash
 g++ --version
 ```
@@ -123,6 +133,7 @@ Any of these work well:
 | **Notepad++**     | Simple, Windows-only                       |
 
 **VS Code quick start:**
+
 1. Install [VS Code](https://code.visualstudio.com/)
 2. Install the extensions listed below
 3. Open a folder → create a `.cpp` file → you’re ready
@@ -273,7 +284,8 @@ hello.exe        # Windows
 ```
 
 You should see:
-```
+
+```text
 Setup successful!
 ```
 

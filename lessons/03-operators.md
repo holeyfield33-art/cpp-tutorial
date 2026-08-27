@@ -418,9 +418,11 @@ In VS Code:
 1. Open the **Run and Debug** panel.
 2. Start the **Debug active C++ file** configuration.
 3. Put a breakpoint immediately before an expression such as:
+
    ```cpp
    int total{price * quantity};
    ```
+
 4. Run the debugger and provide the program's input in the integrated terminal.
 5. When execution stops, inspect `price` and `quantity` in the **Variables** pane.
 6. Step over the calculation.

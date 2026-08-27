@@ -37,7 +37,8 @@ g++ hello.cpp -o hello
 ```
 
 Output:
-```
+
+```text
 Hello, World!
 ```
 
@@ -80,9 +81,11 @@ This is the actual work.
 - `\n` is a **newline character**. It moves the cursor to the next line.
 
 You can also write:
+
 ```cpp
 std::cout << "Hello, World!" << std::endl;
 ```
+
 `std::endl` also moves to a new line *and* flushes the output buffer.  
 For most beginner programs, `\n` is perfectly fine and slightly faster.
 
@@ -90,6 +93,7 @@ For most beginner programs, `\n` is perfectly fine and slightly faster.
 
 This tells the operating system: “The program finished successfully.”  
 By convention:
+
 - `0` = success
 - any non-zero value = some kind of error
 
@@ -168,7 +172,7 @@ std::cout << "Hello, " << "World!" << "\n";
 
 Write a program that prints this exact output (including the blank line):
 
-```
+```text
 ====================
   C++ Tutorial v1
 ====================
