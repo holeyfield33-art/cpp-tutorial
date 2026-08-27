@@ -15,7 +15,7 @@ Variables are how a C++ program remembers information while it runs.
 - `const` variables
 - `std::cout` and `std::cin`
 - Basic input-validation awareness
-- How to inspect variables in the Visual Studio debugger
+- How to inspect variables in the VS Code debugger
 
 ---
 
@@ -305,18 +305,19 @@ Write down your answer before running it. Then test it.
 
 ## Debugger Exercise: Watch Your Variables
 
-If you are using Visual Studio:
+In VS Code:
 
-1. Create a console project containing the complete example above.
-2. Put a breakpoint on:
+1. Open the **Run and Debug** panel.
+2. Select **Debug active C++ file**.
+3. Put a breakpoint on:
    ```cpp
    double tax{price * taxRate};
    ```
-3. Run with the debugger.
-4. Enter a price.
-5. When execution stops, inspect `price`, `taxRate`, and `total` in the **Locals** window.
+4. Start debugging and enter a price in the integrated terminal.
+5. When execution stops, inspect `price`, `taxRate`, and `total` in the **Variables** pane.
 6. Step to the next line and watch `tax` appear.
 7. Continue and observe the final output.
+8. Add a variable to the **Watch** pane when you want to monitor it across steps.
 
 Your goal is to **see program state change while the program runs**, not merely make the program work.
 
